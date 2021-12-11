@@ -4,32 +4,79 @@
 
 
 body{background-color: #FAEEE0;
+  color: #40514E;
 margin:0;
 text-align: center;
 font-family:  'Vollkorn', serif;
 }
-h1{font-size: 5.625rem;
+h1{color: #483434;
+  font-size: 5.625rem;
   margin: 30px auto 0 auto;
 font-family: 'Corinthia', cursive，sans-serif;
 }
+h2{color: #483434;
+  font-family: 'Josefin Sans', sans-serif;
+padding-bottom: 10px;}
+h3{color: #6B4F4F;
+  font-family: 'Josefin Sans', sans-serif;}
+p{line-height: 2;}
+hr{border: dotted #9E7777 6px;
+  border-bottom: none;
+width: 3%;
+margin: 80px auto;}
+a{color: #EED6C4;
+margin: 10px 20px;
+text-decoration: none;
+}
+a:hover{color: #8E806A;}
 
-h2{font-family: 'Josefin Sans', sans-serif;}
-h3{font-family: 'Josefin Sans', sans-serif;}
-
+.intro{width: 30%;
+margin: auto;}
 .top-container{background-color: #DBD0C0;
 position: relative;
 padding-top: 100px;}
-.middle-container{
+.middle-container{padding: 100px 0;
 
 }
-.bottom-container{
-
+.bottom-container{background-color: #6B4F4F;
+  padding: 50px 0 20px;
 }
+.endline{color: #FFF3E4;
+font-size: 0.75em;
+padding: 20px 0;}
 
+.skill-row{width: 50%;
+margin:100px auto  100px auto;
+text-align: left;
+line-height: 2;}
+.talkimage{float: left;
+margin: auto 30px auto auto;}
+.conferenceimage{float: right;
+margin-left: 30px;}
 .bottom-png{position: absolute;
 left:750px;
 top:300px;}
 .top-png{position: absolute;
   left: 400px;
   top:10px;
+}
+
+.contact-message{width: 40%;
+margin: 40px auto 60px;}
+
+.btn {
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #877171;
+  padding: 13px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #b0a8a0;
+  text-decoration: none;
 }
